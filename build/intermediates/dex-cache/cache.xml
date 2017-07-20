@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/2888a23bd08137970646e8f0576f392e60a07ea2/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c1f27957d48b925ef19c5a239aa7092718667a6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/be5f133b89ca0f169ae58ebae4ae80b03a4f49b0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_b52032309d13ba6920236e7e9165b5b37b875df0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/4913683a34b920d1bc54b45e262ad9155b452a73/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_0d0aad17a04ea912212a5ee4e21c5e53bca4442c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/75515768a16902f4fbaeac94dee48b5ca676ebc4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_2f4f27d9dea7f4da0d3e0c973fd4252bc20bf08e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/75515768a16902f4fbaeac94dee48b5ca676ebc4/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_77adde298b11be6dd15ef0d332a8255f805cc11f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/7967e32ab587f7b3f24ce2ca61f63d943a9e2abc/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_5e4f158fea7754b90ed852c778b0ae82175a82d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations-java5/15.0/7011b4551a8451906759b05814c58b9eb829ea9b/annotations-java5-15.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/annotations-java5-15.0_d3616f7d7b908bb85e78e188c4f7d255c3bd23fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/98ebd6466ac6f7c8d6193e3deba2e4cd1ec1635b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_d193c7abb396f13ba04a4078718660917f4841d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/e91654d8b3af49bde2b230077123dbf38ef19f7e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c7e655e4fd5d01177dfec3daadd938ce2d1f9b03">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_9abf6b400f26f3d032c98b333d5056fa1757699d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/535074e31e2155b1a69c6b8ed4268aa1f18a4fca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_dd79292bc097c52e47fb3544985da72afdd13a1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/6fd26c26c69b294ed44b58327ba2f464f10dcad4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_515a04015a0b34ec459c7b474f7a836f462aa37a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/0e951dec31e92fd664348215d1c0da709a91b47a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_f66b2e8ef990ef54e5e108de3f32ffcabd3e5d68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/f4faba83598610976eb752d1883c88028cbf46b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_0e2b59473520e839fa03db30e2dbb7b93a0f7f56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/ea8805996272b07e1ea871cd68d005b98de5826f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_22d658884782ca308133a5ca626a637deabb1714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/c164b9a19d73c27ee8c12b45aee866dff79d657e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_0fdeb02b12b807948a8a60a6586559eb00638ae1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/258170ead61a35df0728179232ad3c28b5fb9372/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_d3d5d202179c1e1a4e6c4cd4dfd33f1fa1758194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/dae455a4b803f4bb20ffcee25984ac25157f38ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_47149bcab556399853526c1f2e201f0c949a2acb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/223cc90c11fbcc7e60848f8069e97b85ab8b6dbd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_83ba40cd7a6e3b5582055f2174555c5e48c449b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/482b26f767a363a45433ae26949bc725c7d63ff8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_bc255ee7ef3a612322ca16f098477b3da13cebc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/4aaf293636a463cde9648605e0ca9c43cd47ec07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_2d3b432a65d7700fd2542eb48097510eb1474dc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/f7de1168dbd9389ac4be53f891894b9084ad8b0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_fda60376cefb338c8a0173ed88e1c63992e7ead3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/a62a13238cd9974411c18f8167be2dfc10e8acb7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_9cc2e5b50adbffa1bef1a61d0f18ae26b8f9022b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/a11ef4e39283afe6f48b6adcaedccd107ddd8088/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_f5b0c616a0f7a26e252329f5d054a0775d8dfd4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_967e77f53e67cd054f4549ba769e02c14de1fddd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/ed20faee565c0ba3ccbe115264f867fcc31f95a8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_d190cfa7ed97f826a47bdab48f074d1f0b9738d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/0bfaf745d20aff2701de4c8828201f2d98f93daf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_925da6f5900d13af87141d5135a0040d2d0b358f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/dfca3e4a1d2513826b30ecb0a1edad7304142d34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_1a18a684fb645156475cd005a3fb6f527de91e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/f6b077a07f7cdf98077e472e7df62023b92b6b60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_3404472ec2e29e72e87f0f46e328e98eae8175e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/a4140ec80014cf65a51ddac773464118d8fc752a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_eb90cec1b51e16e22d9d9eb4e7610d8ef3e2bc7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/e0c544b7f8bda6c2dfdb14a6d6f32adfc2e4daf6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_62eeb841986822ccc7a890bd9e0858ea44a72d77.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JoseV/SovereignSupermarket/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="14867e43d1fe18d6c80dfbf04c8c64fac97a1f16">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2880cb6478859e8ee76e7ec99ec25a2e540f112b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/535074e31e2155b1a69c6b8ed4268aa1f18a4fca/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_376b7f97f24f3fd1a620e2d4517e6317fdc3b0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/54fa314ecd436f7c5236e2be0e6b1aff580a60f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_843c56fff6db06a80185b6be24f744047f981b45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/2888a23bd08137970646e8f0576f392e60a07ea2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_2dc6a9df18463c4b4a8cf0a7d81555a13e8f6ab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/7967e32ab587f7b3f24ce2ca61f63d943a9e2abc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_4a88d1c10a68f219a2175baded0703f26c4af7f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/dae455a4b803f4bb20ffcee25984ac25157f38ce/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0c38aa8b0d7cfe1a5a3f04f9d1648a8526f6588a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/b05887bb84688c5ed7ca78355d5866b86dc0ab4a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_06520861ff6f21a33937dc0fd7df771b4fabacc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_af37a464a7858e69ce8800ceec7ba8933b08ec5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseV/.android/build-cache/d16e1655ac1c9090923542f1ea8f02ebc3ca46ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/pre-dexed/debug/classes_09ed0bfd355487ca475c494a6e5e2d66e235aa6f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JoseV/SovereignSupermarket/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/JoseV/SovereignSupermarket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e46746d654dd1cb06787efc6292fb2a2e57bb945/classes.dex" />
+    </item>
+
+</items>
