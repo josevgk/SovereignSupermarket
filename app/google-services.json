@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "531392620064",
+    "firebase_url": "https://sovereign-supermarket.firebaseio.com",
+    "project_id": "sovereign-supermarket",
+    "storage_bucket": "sovereign-supermarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531392620064:android:63dab4862a95b36f",
+        "android_client_info": {
+          "package_name": "com.sovereign.supermarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531392620064-c8fjapt5unl3gqkaomq60jsg74q35u6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiW0B64y5cO52K2Is4RZcU4QyPmNvngh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

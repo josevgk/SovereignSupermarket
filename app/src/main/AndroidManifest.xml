@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sovereign.supermarket">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDiW0B64y5cO52K2Is4RZcU4QyPmNvngh8" />
+
+        <activity android:name=".activity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ListSupermarketsActivity" />
+        <activity android:name=".activity.SupermarketMap" />
+
+        <activity
+            android:name=".activity.SupermarketActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+
+        <activity
+            android:name=".activity.SignIn"
+            android:theme="@style/AppThemeNoActionBar" />
+
+        <activity android:name=".activity.EmailPasswordActivity" />
+
+        <activity android:name=".activity.BaseActivity"></activity>
+
+        <activity android:name=".activity.SupermarketItemsActivity"></activity>
+        <activity android:name=".activity.SupermarketOrdersActivity"></activity>
+        <activity android:name=".activity.SupermarketProductsOrderActivity"></activity>
+        <activity android:name=".activity.SupermarketShoppingCartActivity"></activity>
+        <activity android:name=".activity.SupermarketConsumerOrder"></activity>
+        <activity android:name=".activity.SupermarketAddCategoryActivity"></activity>
+        <activity android:name=".activity.SupermarketAddItemActivity"></activity>
+        <activity android:name=".activity.SupermarketAddReviewActivity"></activity>
+    </application>
+
+</manifest>
