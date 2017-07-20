@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -77,6 +78,9 @@ public class SupermarketReviewFragment extends Fragment {
         recycler.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
         recycler.setLayoutManager(new LinearLayoutManager(getActivity()));
         newReview=(Button) viewFragment.findViewById(R.id.buttonNewReview);
+        if(FirebaseAuth.getInstance().getCurrentUser()==null){
+            newReview.setVisibility(View.INVISIBLE);
+        }
         Bundle bundle = getActivity().getIntent().getExtras();
 
         newReview.setOnClickListener(new View.OnClickListener() {

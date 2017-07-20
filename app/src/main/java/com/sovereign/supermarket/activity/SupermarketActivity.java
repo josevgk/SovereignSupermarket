@@ -45,8 +45,12 @@ public class SupermarketActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String nameSupermarket=dataSnapshot.child("name").getValue().toString();
-                if(dataSnapshot.child("email").getValue().toString().equals(FirebaseAuth.getInstance().getCurrentUser().getEmail())){
+                if(FirebaseAuth.getInstance().getCurrentUser()!=null) {
 
+
+                    if (dataSnapshot.child("email").getValue().toString().equals(FirebaseAuth.getInstance().getCurrentUser().getEmail())) {
+
+                    }
                 }
                 toolbar.setTitle(nameSupermarket);
 
