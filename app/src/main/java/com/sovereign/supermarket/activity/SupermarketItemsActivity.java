@@ -121,6 +121,8 @@ public class SupermarketItemsActivity extends AppCompatActivity {
                                                     quantity.setVisibility(View.INVISIBLE);
                                                     buttonAdd.setVisibility(View.INVISIBLE);
                                                     buttonCancel.setVisibility(View.INVISIBLE);
+                                                }else{
+                                                    Toast.makeText(getApplicationContext(), "The number must be at least 1", Toast.LENGTH_SHORT).show();
                                                 }
                                             }else{
                                                 Toast.makeText(getApplicationContext(), "The number must be filled", Toast.LENGTH_SHORT).show();
