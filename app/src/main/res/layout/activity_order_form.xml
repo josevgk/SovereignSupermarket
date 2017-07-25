@@ -37,7 +37,7 @@
         android:id="@+id/editTextInformation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Additional information about the deliver"
+        android:hint="Additional information about the delivery"
         android:inputType="text" />
 
     <LinearLayout

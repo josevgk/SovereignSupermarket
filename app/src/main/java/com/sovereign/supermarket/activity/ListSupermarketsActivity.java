@@ -45,7 +45,7 @@ public class ListSupermarketsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_supermarkets);
         ActionBar actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        actionBar.setTitle("Supermarkets near from you");
+        actionBar.setTitle("Search by address");
 
         // Se inicializan las variables y se obtienen los extras (ubicación introducida) de la actividad anterior
         dbLocations = FirebaseDatabase.getInstance().getReference().child("supermarkets");

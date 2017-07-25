@@ -71,7 +71,7 @@ public class SupermarketAddItemActivity extends AppCompatActivity implements Vie
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        actionBar.setTitle("Create new category");
+        actionBar.setTitle("Create new item");
         dbItems = FirebaseDatabase.getInstance().getReference().child("supermarkets").child("supermarket"+keySupermarket).child("items");
 
         dbItems.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -82,6 +82,8 @@ public class SupermarketAddItemActivity extends AppCompatActivity implements Vie
                     for(DataSnapshot d:dataSnapshot.getChildren()){
                         listSku.add(d.child("sku").getValue().toString());
                     }
+                }else{
+                    numberItems=0L;
                 }
 
             }

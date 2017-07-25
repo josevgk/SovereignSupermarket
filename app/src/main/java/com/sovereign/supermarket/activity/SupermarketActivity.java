@@ -70,7 +70,11 @@ public class SupermarketActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                Intent myIntent = new Intent(v.getContext(), HomeActivity.class);
+                Bundle b = new Bundle();
+                b.putBoolean("admin",isAdmin);
+                myIntent.putExtras(b);
+                startActivityForResult(myIntent, 0);
             }
         });
 

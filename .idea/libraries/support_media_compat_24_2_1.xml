@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="support-media-compat-24.2.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/dae455a4b803f4bb20ffcee25984ac25157f38ce/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/dae455a4b803f4bb20ffcee25984ac25157f38ce/output/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/dae455a4b803f4bb20ffcee25984ac25157f38ce/output/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9e27dcc8ea6c10a41ef5aab33c76f5fc2fa6dc5c/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9e27dcc8ea6c10a41ef5aab33c76f5fc2fa6dc5c/output/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9e27dcc8ea6c10a41ef5aab33c76f5fc2fa6dc5c/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

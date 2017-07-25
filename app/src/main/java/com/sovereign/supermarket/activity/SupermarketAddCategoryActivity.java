@@ -74,7 +74,11 @@ public class SupermarketAddCategoryActivity extends AppCompatActivity implements
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists()) {
+                    System.out.println("NUUUUUMBER EQWQEQWE");
                     numberCategories = dataSnapshot.getChildrenCount();
+                    System.out.println("NUUUUUMBER"+numberCategories);
+                }else{
+                    numberCategories=0L;
                 }
 
             }
@@ -96,22 +100,26 @@ public class SupermarketAddCategoryActivity extends AppCompatActivity implements
 
 
     private void createCategory(String name, String description) {
+        System.out.println("EEERRRRRROORRR 11111");
         Category category = new Category(name,description);
+        System.out.println("EEERRRRRROORRR 2222");
         Map<String, Object> infoCategory = category.toMap();
+        System.out.println("EEERRRRRROORRR 33333");
 
         Map<String, Object> childUpdates = new HashMap<>();
         String keyCategory;
         Long sum=numberCategories+1;
+        System.out.println("EEERRRRRROORRR 3233"+sum);
         if(numberCategories<10){
             keyCategory="0"+sum.toString();
         }else{
             keyCategory=sum.toString();
         }
+        System.out.println("Holaa");
 
         childUpdates.put("/supermarkets/supermarket"+keySupermarket+"/"+"/categories/"+keyCategory+"/", infoCategory);
         FirebaseDatabase.getInstance().getReference().updateChildren(childUpdates);
 
-        FirebaseDatabase.getInstance().getReference().updateChildren(childUpdates);
         Toast.makeText(getApplicationContext(), "Category created", Toast.LENGTH_SHORT).show();
 
 
