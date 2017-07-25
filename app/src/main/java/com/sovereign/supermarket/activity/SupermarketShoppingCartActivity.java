@@ -7,6 +7,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -154,16 +155,24 @@ public class SupermarketShoppingCartActivity extends AppCompatActivity {
                                 buttonAdd.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        Integer numberItems = Integer.parseInt(number.getText().toString());
-                                        if(numberItems>=1) {
-                                            addtoShoppingCart(shoppingCart.getSku(), shoppingCart.getName(), shoppingCart.getDescription(), shoppingCart.getPrice(), numberItems);
-                                            Toast.makeText(getApplicationContext(), "Change quantity", Toast.LENGTH_SHORT).show();
-                                            number.setVisibility(View.INVISIBLE);
-                                            quantity.setVisibility(View.INVISIBLE);
-                                            buttonAdd.setVisibility(View.INVISIBLE);
-                                            buttonRemove.setVisibility(View.INVISIBLE);
-                                            buttonCancel.setVisibility(View.INVISIBLE);
+                                        if(!TextUtils.isEmpty(number.getText().toString())) {
+                                            Integer numberItems = Integer.parseInt(number.getText().toString());
+                                            if(numberItems>=1) {
+                                                addtoShoppingCart(shoppingCart.getSku(), shoppingCart.getName(), shoppingCart.getDescription(), shoppingCart.getPrice(), numberItems);
+                                                Toast.makeText(getApplicationContext(), "Change quantity", Toast.LENGTH_SHORT).show();
+                                                number.setVisibility(View.INVISIBLE);
+                                                quantity.setVisibility(View.INVISIBLE);
+                                                buttonAdd.setVisibility(View.INVISIBLE);
+                                                buttonRemove.setVisibility(View.INVISIBLE);
+                                                buttonCancel.setVisibility(View.INVISIBLE);
+                                            }else{
+                                                Toast.makeText(getApplicationContext(), "The number must be at least 1", Toast.LENGTH_SHORT).show();
+                                            }
+                                        }else{
+                                            Toast.makeText(getApplicationContext(), "The number must be filled", Toast.LENGTH_SHORT).show();
                                         }
+                                        
+
                                     }
                                 });
 
