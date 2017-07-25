@@ -86,11 +86,13 @@ public class SupermarketShoppingCartActivity extends AppCompatActivity {
         dbItems = FirebaseDatabase.getInstance().getReference().child("supermarkets").child("supermarket"+keySupermarket).child("shoppingCarts").child(mAuth.getCurrentUser().getUid()).child("products");
 
 
-        dbItems.addListenerForSingleValueEvent(new ValueEventListener() {
+        dbItems.addValueEventListener(new ValueEventListener() {
+
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 if(dataSnapshot.exists()) {
+                    totalPrice=0.0;
                     for (DataSnapshot d : dataSnapshot.getChildren()) {
                         Double price = Double.parseDouble(d.child("price").getValue().toString());
                         Integer quantity= Integer.parseInt(d.child("quantity").getValue().toString());
@@ -99,7 +101,11 @@ public class SupermarketShoppingCartActivity extends AppCompatActivity {
                     }
                     buttonOrder.setVisibility(View.VISIBLE);
                     totalCost.setVisibility(View.VISIBLE);
-                    totalCost.setText("Total: "+totalPrice+"€");
+                    String ptotal= String.format("%.2f", totalPrice);
+                    totalCost.setText("Total: "+ptotal+"€");
+                }else{
+                    buttonOrder.setVisibility(View.INVISIBLE);
+                    totalCost.setVisibility(View.INVISIBLE);
                 }
 
             }
