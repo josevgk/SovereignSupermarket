@@ -106,12 +106,12 @@ public class SupermarketAddReviewActivity extends AppCompatActivity implements V
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonAddReview:
-                String name = editTextNameReview.getText().toString();
+                String name = editTextNameReview.getText().toString().trim();
                 if(TextUtils.isEmpty(name)) {
                     editTextNameReview.setError("The name must be filled");
                     return;
                 }
-                String text = editTextTextReview.getText().toString();
+                String text = editTextTextReview.getText().toString().trim();
                 if(TextUtils.isEmpty(text)) {
                     editTextTextReview.setError("The text must be filled");
                     return;

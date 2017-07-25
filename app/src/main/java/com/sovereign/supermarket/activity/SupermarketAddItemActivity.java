@@ -149,17 +149,17 @@ public class SupermarketAddItemActivity extends AppCompatActivity implements Vie
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonAddItem:
-                String name = editTextNameItem.getText().toString();
+                String name = editTextNameItem.getText().toString().trim();
                 if(TextUtils.isEmpty(name)) {
                     editTextNameItem.setError("The name must be filled");
                     return;
                 }
-                String description = editTextDescriptionItem.getText().toString();
+                String description = editTextDescriptionItem.getText().toString().trim();
                 if(TextUtils.isEmpty(description)) {
                     editTextDescriptionItem.setError("The description must be filled");
                     return;
                 }
-                String price = editTextPriceItem.getText().toString();
+                String price = editTextPriceItem.getText().toString().trim();
                 if(TextUtils.isEmpty(price)) {
                     editTextPriceItem.setError("The price must be filled");
                     return;

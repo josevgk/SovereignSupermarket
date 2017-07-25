@@ -131,12 +131,12 @@ public class SupermarketAddCategoryActivity extends AppCompatActivity implements
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonAddCategory:
-                String name = editTextNameCategory.getText().toString();
+                String name = editTextNameCategory.getText().toString().trim();
                 if(TextUtils.isEmpty(name)) {
                     editTextNameCategory.setError("The name must be filled");
                     return;
                 }
-                String description = editTextDescriptionCategory.getText().toString();
+                String description = editTextDescriptionCategory.getText().toString().trim();
                 if(TextUtils.isEmpty(description)) {
                     editTextDescriptionCategory.setError("The description must be filled");
                     return;

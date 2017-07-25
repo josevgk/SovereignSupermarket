@@ -135,27 +135,27 @@ public class SupermarketConsumerOrder extends AppCompatActivity implements View.
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonConfirm:
-                String name = editTextName.getText().toString();
+                String name = editTextName.getText().toString().trim();
                 if(TextUtils.isEmpty(name)) {
                     editTextName.setError("The name must be filled");
                     return;
                 }
-                String surname = editTextSurname.getText().toString();
+                String surname = editTextSurname.getText().toString().trim();
                 if(TextUtils.isEmpty(surname)) {
                     editTextSurname.setError("The surname must be filled");
                     return;
                 }
-                String phone = editTextPhone.getText().toString();
+                String phone = editTextPhone.getText().toString().trim();
                 if(TextUtils.isEmpty(phone)) {
                     editTextPhone.setError("The phone must be filled");
                     return;
                 }
-                String address = editTextAddress.getText().toString();
+                String address = editTextAddress.getText().toString().trim();
                 if(TextUtils.isEmpty(address)) {
                     editTextAddress.setError("The address must be filled");
                     return;
                 }
-                String information = editTextInformation.getText().toString();
+                String information = editTextInformation.getText().toString().trim();
                 createOrder(name, surname, phone, address,information);
                 Context context2 = view.getContext();
                 Intent intent2 = new Intent(context2, SupermarketActivity.class);
