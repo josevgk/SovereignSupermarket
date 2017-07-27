@@ -29,6 +29,7 @@ public class SupermarketProductsOrderActivity extends AppCompatActivity {
     private DatabaseReference dbItems;
     private String keySupermarket;
     private String codePerson;
+    private String namePerson;
     private Button buttonRemoveOrder;
     private FirebaseRecyclerAdapter mAdapterItem;
 
@@ -58,7 +59,8 @@ public class SupermarketProductsOrderActivity extends AppCompatActivity {
         Bundle bundle = this.getIntent().getExtras();
         keySupermarket = bundle.getString("keySupermarket");
         codePerson=bundle.getString("code");
-        actionBar.setTitle("Orders");
+        namePerson=bundle.getString("name");
+        actionBar.setTitle(namePerson);
         dbItems = FirebaseDatabase.getInstance().getReference().child("supermarkets").child("supermarket" + keySupermarket)
                 .child("orders").child(codePerson).child("products");
 

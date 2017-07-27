@@ -69,7 +69,7 @@ public class SupermarketOrdersActivity extends AppCompatActivity {
                         consumerHolder.setName(consumer.getName()+" "+consumer.getSurnames());
                         consumerHolder.setAddress(consumer.getAddress());
                         consumerHolder.setContact("Contact: "+consumer.getPhone()+", "+consumer.getEmail());
-                        if(!consumer.getInformation().isEmpty()) {
+                        if(!consumer.getInformation().trim().isEmpty()) {
                             consumerHolder.setAdditionalInformation("Additional information: " + consumer.getInformation());
                         }else{
                             consumerHolder.setAdditionalInformation("Additional information: Nothing" );
@@ -84,6 +84,7 @@ public class SupermarketOrdersActivity extends AppCompatActivity {
 
                                     b.putString("keySupermarket",keySupermarket);
                                     b.putString("code",consumer.getCode());
+                                    b.putString("name",consumer.getName()+" "+consumer.getSurnames());
                                     intent.putExtras(b);
                                     startActivity(intent);
 
